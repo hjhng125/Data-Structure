@@ -17,9 +17,11 @@ void view_heap();
 int arr[MAX];
 int parent;
 
-void main()
+int main()
 {
 	heap_sort();
+
+	return 0;
 }
 void heap_sort()
 {
